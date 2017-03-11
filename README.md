@@ -7,11 +7,11 @@ I open this to briefly share some of my personal thoughts and hopes for the deve
 
 # A Rationale for trying out Fortran 2008 atomic subroutines and SYNC MEMORY
 
-At this time, I am just learning myself that development of the parallel logic codes is quite a different job and should probably not be mixed with the development of the main logic codes. Actually, we may try to answer questions like these:
+At this time, I am just learning myself that development of the parallel logic codes is quite a different job and should probably not be mixed with the development of the main logic codes. Actually, we may try to answer questions like these:<br />
 
-Will parallel programming alone allow for efficient software development for many-core computers?
-Will sequential programmers turn massively into parallel programmers?
-Is everyone required to become a parallel programmer to develop codes that run on many-core computers?
+Will parallel programming alone allow for efficient software development for many-core computers?<br />
+Will sequential programmers turn massively into parallel programmers?<br />
+Is everyone required to become a parallel programmer to develop codes that run on many-core computers?<br />
 (People may try to answer these questions for themselves. If you got three 'yes', I may not be able to convince you yet. For myself, I've got three 'no' yet.)
 
 Probably, we should not expect complete and efficient software development from parallel programming alone. Parallel programming itself can be difficult enough, but mixing the parallel logic codes with the main logic codes may be an extremely daunting experience. The parallel developer should only be responsible for the parallel logic codes, whereas the main logic codes should be developed separately. (Ideally with sequential syntax to allow for development by traditional programmers).
